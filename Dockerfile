@@ -9,9 +9,9 @@ RUN apt-get update && \
     apt-get clean -y
 
 # Install the conda environment
-ARG ENV_NAME=$(basename $(git rev-parse --show-toplevel) | sed s/-docker//)
+ARG ENV_NAME=hiphase
 COPY environment.yaml /
-RUN conda env create --quiet --name ${ENV_NAME} --file /environment.yaml && \
+RUN conda env create --quiet --name ${ENV_NAME} --file /environment.yaml -y && \
     conda clean -a
 
 # Add conda installation and root dirs to PATH (instead of doing
