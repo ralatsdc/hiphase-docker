@@ -1,0 +1,6 @@
+name: hiphase
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - hiphase
