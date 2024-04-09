@@ -1,3 +1,5 @@
+[![Build a Docker image](https://github.com/adeslatt/hiphase-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/adeslatt/hiphase-docker/actions/workflows/docker-image.yml)[![Build and push a Docker image](https://github.com/adeslatt/hiphase-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/adeslatt/hiphase-docker/actions/workflows/docker-publish.yml)
+
 # hiphase-docker
 
 [HiPhase](https://github.com/PacificBiosciences/HiPhase) provides a tool for jointly phasing small, structural, and tandem repeat variants for PacBio sequencing data. hiphase-docker provides Docker files and GitHub Action workflows for building and publishing a Docker image so that hiphase can be used in the [sync-seq](https://github.com/adeslatt/sync-seq) workflow.
